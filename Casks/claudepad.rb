@@ -9,4 +9,9 @@ cask "claudepad" do
   homepage "https://github.com/ngomez18/claudepad"
 
   app "claudepad.app"
+
+  caveats <<~EOS
+    Claudepad is not code-signed. If macOS blocks the app on first launch, run:
+      xattr -dr com.apple.quarantine /Applications/claudepad.app
+  EOS
 end
