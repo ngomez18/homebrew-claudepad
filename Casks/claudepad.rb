@@ -1,6 +1,6 @@
 cask "claudepad" do
-  version "0.0.3"
-  sha256 "62e5a53a57d0053da04beb26182063ff1259481936b174509c165e5795a154d2"
+  version "0.0.4"
+  sha256 "9cd6f340e0a28fc6689d8a5ff70889303db17077545c2ebb0a91d6ae23802efc"
 
   url "https://github.com/ngomez18/claudepad/releases/download/v#{version}/Claudepad.dmg"
 
